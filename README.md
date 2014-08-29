@@ -26,6 +26,8 @@
     NSLog(@"32 bit 下 sizeof(uint16_t) = %lu 个字节", sizeof(uint16_t));
     NSLog(@"32 bit 下 sizeof(uint32_t) = %lu 个字节", sizeof(uint32_t));
     NSLog(@"32 bit 下 sizeof(uint64_t) = %lu 个字节", sizeof(uint64_t));
+    NSLog(@"32 bit 下 sizeof(unsigned char *) = %lu 个字节", sizeof(unsigned char *));
+    NSLog(@"32 bit 下 sizeof(uint8_t *) = %lu 个字节", sizeof(uint8_t *));
     
 
 对应输出:
@@ -52,6 +54,8 @@
 	32 bit 下 sizeof(uint16_t) = 2 个字节
 	32 bit 下 sizeof(uint32_t) = 4 个字节
 	32 bit 下 sizeof(uint64_t) = 8 个字节
+	32 bit 下 sizeof(unsigned char *) = 4 个字节
+	32 bit 下 sizeof(uint8_t *) = 4 个字节
 	
 	
 ###64位下的情形
@@ -80,6 +84,8 @@
     NSLog(@"64 bit 下 sizeof(uint16_t) = %lu 个字节", sizeof(uint16_t));
     NSLog(@"64 bit 下 sizeof(uint32_t) = %lu 个字节", sizeof(uint32_t));
     NSLog(@"64 bit 下 sizeof(uint64_t) = %lu 个字节", sizeof(uint64_t));
+    NSLog(@"64 bit 下 sizeof(unsigned char *) = %lu 个字节", sizeof(unsigned char *));
+    NSLog(@"64 bit 下 sizeof(uint8_t *) = %lu 个字节", sizeof(uint8_t *));
     
     
 对应输出:
@@ -106,6 +112,8 @@
     64 bit 下 sizeof(uint16_t) = 2 个字节
     64 bit 下 sizeof(uint32_t) = 4 个字节
     64 bit 下 sizeof(uint64_t) = 8 个字节
+    64 bit 下 sizeof(unsigned char *) = 8 个字节
+    64 bit 下 sizeof(uint8_t *) = 8 个字节
 
 ##总结
 32 位与 64 位数据类型的主要区别是 `long`。在 32 位下 `long` 占 4 个字节，而在 64 位下 `long` 为 8 个字节。
