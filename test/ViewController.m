@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"32 bit 下 sizeof(char) = %lu 个字节", sizeof(char));
+    /*NSLog(@"32 bit 下 sizeof(char) = %lu 个字节", sizeof(char));
     NSLog(@"32 bit 下 sizeof(unsigned char) = %lu 个字节", sizeof(unsigned char));
     NSLog(@"32 bit 下 sizeof(short) = %lu 个字节", sizeof(short));
     NSLog(@"32 bit 下 sizeof(unsigned short) = %lu 个字节", sizeof(unsigned short));
@@ -41,6 +41,7 @@
     NSLog(@"32 bit 下 sizeof(uint64_t) = %lu 个字节", sizeof(uint64_t));
     NSLog(@"32 bit 下 sizeof(unsigned char *) = %lu 个字节", sizeof(unsigned char *));
     NSLog(@"32 bit 下 sizeof(uint8_t *) = %lu 个字节", sizeof(uint8_t *));
+    NSLog(@"32 bit 下 sizeof(size_t) = %lu 个字节", sizeof(size_t));*/
     
     NSLog(@"64 bit 下 sizeof(char) = %lu 个字节", sizeof(char));
     NSLog(@"64 bit 下 sizeof(unsigned char) = %lu 个字节", sizeof(unsigned char));
@@ -66,7 +67,7 @@
     NSLog(@"64 bit 下 sizeof(uint64_t) = %lu 个字节", sizeof(uint64_t));
     NSLog(@"64 bit 下 sizeof(unsigned char *) = %lu 个字节", sizeof(unsigned char *));
     NSLog(@"64 bit 下 sizeof(uint8_t *) = %lu 个字节", sizeof(uint8_t *));
-    
+    NSLog(@"64 bit 下 sizeof(size_t) = %lu 个字节", sizeof(size_t));
 }
 
 - (void)didReceiveMemoryWarning {
